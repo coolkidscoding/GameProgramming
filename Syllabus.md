@@ -1,7 +1,7 @@
 # <center>[**Cool Kids Coding School**](http://www.coolkidscodingschool.com)<br>Course Syllabus: **Game Programming with Python**<br>  Spring 2020
 ---
 + **Lesson 1:  Surface and Controls**
-  > This course will be an introduction to computer programming using graphics.  We will revisit topics we have already discussed in the context of graphical programming.  The programming language we will use in this course will be python, and the graphical package we use will be turtle. In this class we will review the development environment and the turtle commands that allow us to draw with code.
+  > This course will be an introduction to game programming using python.  In this lesson we will learn about the basics building blocks of a game.  Specifically we will start writing code to manipulate the surface and integrate controls into the game We will revisit topics we have already discussed in the context of graphical programming.  The programming language we will use in this course will be python, and the graphical package we use will be turtle. In this class we will review the development environment and the turtle commands that allow us to draw with code.
   
 + **Lesson 2:  TBD**
   
