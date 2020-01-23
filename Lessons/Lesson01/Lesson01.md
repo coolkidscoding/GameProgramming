@@ -1,4 +1,8 @@
-![logo](./images/ckcslogo.png)
+<p align="center">
+    ![logo](./images/ckcslogo.png)
+</p>
+
+
 # <center>_**[Cool Kids Coding School](https://www.coolkidscodingschool.com)**_</center>
 
 ## Game Programming with Python
