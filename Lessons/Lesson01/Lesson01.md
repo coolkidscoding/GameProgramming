@@ -1,29 +1,26 @@
-<p align="center">
-    ![logo](./images/ckcslogo.png)
-</p>
+# <center>**[Cool Kids Coding School](https://www.coolkidscodingschool.com)**</center>
 
+## Game Programming with Python<br> Lesson 01: Introduction to PyGame
 
-# <center>_**[Cool Kids Coding School](https://www.coolkidscodingschool.com)**_</center>
+![alt text][logo]
 
-## Game Programming with Python
-
-Lesson 01: Introduction to PyGame
+[logo]: ./images/ckcslogo.png
 
 ---
 
-> Overview
+> 1.0 Overview
 
 In this lesson we are going to start learning how to create games using Python.  As we have seen in previous courses, python comes with many packages built in.  This is what makes python such a great development language.  One of these packages is focused on game development.  The **Pygame** framework includes several modules with functions for drawing graphics, playing sounds, handling mouse input, and other things.
 
-GUI vs. CLI
+> 2.0 GUI vs. CLI
 
-The Python programs that we have been writing up to this point use built-in functions that only deal with text through the print() and input() functions.  This type of program has a command line interface, or **CLI**. 
+The Python programs that we have been writing up to this point use built-in functions that only deal with text through the print() and input() functions.  This type of program has a command line interface, or **CLI**.
 
 Pygame provides functions for creating programs with a graphical user interface, or **GUI** (pronounced, “gooey”). Instead of a text-based CLI, programs with a graphics-based GUI can show a window with images and colors.
 
-> Hello World with Pygame
+> 3.0 Hello World with Pygame
 
-Our first program made with Pygame is a small program that makes a window that says “Hello World!” appear on the screen. Open a new REPL and select "Python with Pygame" as the REPL type. 
+Our first program made with Pygame is a small program that makes a window that says “Hello World!” appear on the screen. Open a new REPL and select "Python with Pygame" as the REPL type.
 
 ```python
 import pygame
@@ -74,7 +71,7 @@ The pygame.Surface object returned is stored in a variable named surface.
 pygame.display.set_caption('Hello World!')
 ```
 
-THe next line sets the caption text that will appear at the top of the window by calling the pygame.display.set_caption() function. The string value 'Hello World!' is passed in this function call to make that text appear as the caption.
+The next line sets the caption text that will appear at the top of the window by calling the pygame.display.set_caption() function. The string value 'Hello World!' is passed in this function call to make that text appear as the caption.
 
 ```python
 done = False
@@ -95,7 +92,7 @@ Since the game state is usually updated in response to events (such as mouse cli
 
 ![game loop](./images/gameloop.png)
 
-> pygame.event.Event Objects
+> 4.0 pygame.event.Event Objects
 
 Any time the user does one of several actions such as pressing a keyboard key or moving the mouse on the program’s window, a pygame.event.Event object is created by the Pygame library to record this “event”. We can find out which events have happened by calling the pygame.event.get() function, which returns a list of pygame.event.Event objects.
 
@@ -108,7 +105,7 @@ The list of Event objects will be for each event that has happened since the las
             done = True
 ```
 
-Event objects have a member variable (also called attributes or properties) named type which tells us what kind of event the object represents. This code segment checks if the Event object’s type is equal to QUIT. 
+Event objects have a member variable (also called attributes or properties) named type which tells us what kind of event the object represents. This code segment checks if the Event object’s type is equal to QUIT.
 
 If the Event object is a quit event, then we set the done variable to True.  This will cause the game loop to stop at the next iteration.
 
@@ -117,6 +114,7 @@ Since we have no if statements that run code for other types of Event object, th
 ```python
 pygame.display.update()
 ```
+
 This next line calls the pygame.display.update() function, which draws the Surface object returned by pygame.display.set_mode() to the screen (remember we stored this object in the surface variable). Since the Surface object hasn’t changed, the same black image is redrawn to the screen each time pygame.display.update() is called.
 
 ```python
@@ -127,7 +125,7 @@ This line of code is executed as soon as we exit the game loop.  The pygame.quit
 
 That is the entire program. This program does nothing besides make a black window appear on the screen, constantly check for a QUIT event, and then redraws the unchanged black window to the screen over and over again. Let’s learn how to make interesting things appear on this window instead of just blackness by learning about pixels, Surface objects, Color objects, Rect objects, and the Pygame drawing functions.
 
-> Pixel Coordinates
+> 5.0 Pixel Coordinates
 
 The window that the “Hello World” program creates is just composed of little square dots on your screen called pixels. Each pixel starts off as black but can be set to a different color. Imagine that instead of a Surface object that is 400 pixels wide and 300 pixels tall, we just had a Surface object that was 8 pixels by 8 pixels. If that tiny 8x8 Surface was enlarged so that each pixel looks like a square in a grid, and we added numbers for the X and Y axis, then a good representation of it could look something like this:
 
@@ -137,19 +135,19 @@ We can refer to a specific pixel by using a Cartesian Coordinate system. Each co
 
 For example, in the above 8x8 image, we can see that the pixels at the XY coordinates (4, 0), (2, 2), (0, 5), and (5, 6) have been painted black, the pixel at (2, 4) has been painted gray, while all the other pixels are painted white. XY coordinates are also called points. If you’ve learned about Cartesian Coordinates, you might notice that the Y-axis starts at 0 at the top and then increases going down, rather than increasing as it goes up. This is just how Cartesian Coordinates work in Pygame.
 
-> Surface Objects and The Window
+> 6.0 Surface Objects and The Window
 
 Surface objects are objects that represent a rectangular 2D image. The pixels of the Surface object can be changed by calling the Pygame drawing functions (described later in this chapter) and then displayed on the screen. The window border, title bar, and buttons are not part of the display Surface object.
 
-In particular, the Surface object returned by pygame.display.set_mode() is called the display Surface. Anything that is drawn on the display Surface object will be displayed on the window when the pygame.display.update() function is called. 
+In particular, the Surface object returned by pygame.display.set_mode() is called the display Surface. Anything that is drawn on the display Surface object will be displayed on the window when the pygame.display.update() function is called.
 
-Often your program will draw several different things to a Surface object. Once you are done drawing everything on the display Surface object for this iteration of the game loop (called a frame, just like a still image on a paused DVD is called) on a Surface object, it can be drawn to the screen. The computer can draw frames very quickly, and our programs will often run around 30 frames per second (that is, 30 FPS). 
+Often your program will draw several different things to a Surface object. Once you are done drawing everything on the display Surface object for this iteration of the game loop (called a frame, just like a still image on a paused DVD is called) on a Surface object, it can be drawn to the screen. The computer can draw frames very quickly, and our programs will often run around 30 frames per second (that is, 30 FPS).
 
-> Colors
+> 7.0 Colors
 
 There are three primary colors of light: red, green and blue. By combining different amounts of these three colors you can form any other color. In Pygame, we represent colors with tuples of three integers. The first value in the tuple is how much red is in the color. An integer value of 0 means there is no red in this color, and a value of 255 means there is the maximum amount of red in the color. The second value is for green and the third value is for blue. These tuples of three integers used to represent a color are often called RGB values.
 
-Because you can use any combination of 0 to 255 for each of the three primary colors, this means Pygame can draw 16,777,216 different colors (that is, 256 x 256 x 256 colors). 
+Because you can use any combination of 0 to 255 for each of the three primary colors, this means Pygame can draw 16,777,216 different colors (that is, 256 x 256 x 256 colors).
 
 Here are the RGB values for a few common colors:
 |Color|RGB Values|
@@ -170,8 +168,8 @@ Here are the RGB values for a few common colors:
 |Teal|(  0, 128, 128)|
 |White|(255, 255, 255)|
 |Yellow|(255, 255,   0)|
- 
-> Rect Objects
+
+> 8.0 Rect Objects
 
 Pygame represents rectangular areas as a tuple of four integers:
 
@@ -189,6 +187,7 @@ The handy thing about this is that the Rect object automatically calculates the 
 ```python
 spamRect.right
 ```
+
 210
 
 The Pygame code for the Rect object automatically calculated that if the left edge is at the X coordinate 10 and the rectangle is 200 pixels wide, then the right edge must be at the X coordinate 210. If you reassign the right attribute, all the other attributes are automatically recalculated:
@@ -197,9 +196,10 @@ The Pygame code for the Rect object automatically calculated that if the left ed
 spamRect.right = 350
 spamRect.left
 ```
+
 150
 
-Here’s a list of all the attributes that pygame.Rect objects provide 
+Here’s a list of all the attributes that pygame.Rect objects provide:
 
 |Attribute Name|Description|
 |--------------|-----------|
@@ -221,9 +221,9 @@ Here’s a list of all the attributes that pygame.Rect objects provide
 |myRect.midtop|A tuple of two ints: (centerx, top)|
 |myRect.midbottom|A tuple of two ints: (centerx, bottom)|
 
-> Primitive Drawing Functions
+> 8.0 Primitive Drawing Functions
 
-Pygame provides several different functions for drawing different shapes onto a surface object. These shapes such as rectangles, circles, ellipses, lines, or individual pixels are often called drawing primitives. 
+Pygame provides several different functions for drawing different shapes onto a surface object. These shapes such as rectangles, circles, ellipses, lines, or individual pixels are often called drawing primitives.
 
 ```python
 import pygame
@@ -278,3 +278,9 @@ All of the pygame.draw drawing functions have optional width parameters at the e
 + pygame.draw.circle(surface, color, center_point, radius, width) – This function draws a circle. The center of the circle is at the center_point parameter. The integer passed for the radius parameter sets the size of the circle.  The radius of a circle is the distance from the center to the edge. (The radius of a circle is always half of the diameter.) Passing 20 for the radius parameter will draw a circle that has a radius of 20 pixels.
 
 + pygame.draw.rect(surface, color, rectangle_tuple, width) – This function draws a rectangle. The rectangle_tuple is either a tuple of four integers (for the XY coordinates of the top left corner, and the width and height) or a pygame.Rect object can be passed instead. If the rectangle_tuple has the same size for the width and height, a square will be drawn.
+
+---
+
+## **Any Questions?**
+
+### **for any questions contact hw_help@coolkidscodingschool.com**
