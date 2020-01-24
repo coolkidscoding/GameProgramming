@@ -6,6 +6,12 @@
   + display surface
   + RGB color codes
   + pixel coordinates
+  > There will be a homework assigned at the end of this class.  The student will be required to create their own "boring" game with the following characteristics:
+  + A display surface with a blue background
+  + A caption that reads "My first PyGame!"
+  + A QUIT control that will only quit the game after it's been pressed twice
+  + A red rectangle at 50,50 and width,height 10,10
+  + A green circle at 200,200 with radius 30
   
 + **Lesson 2:  TBD**
   
