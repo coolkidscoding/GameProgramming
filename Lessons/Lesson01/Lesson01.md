@@ -1,4 +1,9 @@
+<<<<<<< Updated upstream
 # <center>**[Cool Kids Coding School](https://www.coolkidscodingschool.com)**</center>
+=======
+
+![logo](./images/ckcslogo.png)
+>>>>>>> Stashed changes
 
 ## Game Programming with Python<br> Lesson 01: Introduction to PyGame
 
