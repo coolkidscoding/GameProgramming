@@ -6,7 +6,7 @@
 + Class #1 (**Introduction to PyGame**)
   + 1/24/2020
   + Upper West Side
-+ Class #2 (**TBD**)
++ Class #2 (**Introduce Object Movement and Limits**)
   + 1/31/2020
   + Upper West Side
 + Class #3 (**TBD**)
@@ -45,7 +45,7 @@
 + Class #1 (**Introduction to PyGame**)
   + 1/26/2020
   + Upper West Side
-+ Class #2 (**TBD**)
++ Class #2 (**Introduce Object Movement and Limits**)
   + 2/2/2020
   + Upper West Side
 + Class #3 (**TBD**)
