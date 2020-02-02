@@ -9,10 +9,10 @@
 + Class #2 (**Introduce Object Movement and Limits**)
   + 1/31/2020
   + Upper West Side
-+ Class #3 (**TBD**)
++ Class #3 (**Sprites & Fundamentals of Object Oriented Programming**)
   + 2/7/2020
   + Upper West Side
-+ Class #4 (**TBD**)
++ Class #4 (**More Sprites**)
   + 2/21/2020
   + Upper West Side
 + Class #5 (**TBD**)
@@ -44,37 +44,37 @@
 
 + Class #1 (**Introduction to PyGame**)
   + 1/26/2020
-  + Upper West Side
+  + Upper East Side
 + Class #2 (**Introduce Object Movement and Limits**)
   + 2/2/2020
-  + Upper West Side
-+ Class #3 (**TBD**)
+  + Upper East Side
++ Class #3 (**Sprites & Fundamentals of Object Oriented Programming**)
   + 2/9/2020
-  + Upper West Side
-+ Class #4 (**TBD**)
+  + Upper East Side
++ Class #4 (**More Sprites**)
   + 2/23/2020
-  + Upper West Side
+  + Upper East Side
 + Class #5 (**TBD**)
   + 3/1/2020
-  + Upper West Side
+  + Upper East Side
 + Class #6 (**TBD**)
   + 3/8/2020
-  + Upper West Side
+  + Upper East Side
 + Class #7 (**TBD**)
   + 3/29/2020
-  + Upper West Side
+  + Upper East Side
 + Class #8 (**TBD**)
   + 4/5/2020
-  + Upper West Side
+  + Upper East Side
 + Class #9 (**TBD**)
   + 4/19/2020
-  + Upper West Side
+  + Upper East Side
 + Class #10 (**TBD**)
   + 4/26/2020
-  + Upper West Side
+  + Upper East Side
 + Class #11 (**TBD**)
   + 5/3/2020
-  + Upper West Side
+  + Upper East Side
 + Class #12 (**Review/Final Exam**)
   + 5/10/2020
-  + Upper West Side
+  + Upper East Side
