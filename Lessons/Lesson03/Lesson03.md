@@ -15,7 +15,8 @@ In this lesson we are going to start by reviewing the important concepts from th
 > 2.0 Review
 
 In the last lesson we discussed the following, lets review.  
-+ We discussed how we control the game clock.  How do we do that?
+
++ We discussed how we control the game clock to target a certain FPS.  How do we do that?
 + We discussed and implemented how we moved our stick man around the screen by only using keyboard controls.
 
 > Object Oriented Programming
