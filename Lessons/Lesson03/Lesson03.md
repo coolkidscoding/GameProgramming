@@ -1,5 +1,7 @@
 # <center>**[Cool Kids Coding School](https://www.coolkidscodingschool.com)**</center>
+
 ---
+
 ## Game Programming with Python<br> Lesson 03: Fundamentals of Object Oriented Programming
 
 ![alt text][logo]
@@ -10,24 +12,21 @@
 
 > 1.0 Overview
 
-In this lesson we are going to start by reviewing the important concepts from the last lesson.  Once we are done with our review we are going to take our game to the next step.  We will introduce the Object Oriented Programming.  This is an advanced topic that we will only scratch the surface on.  It is necessary in order to introduce the concept of Sprites.  Sprites are 2D game objects that a user interacts with or that move independently on the screen.  In this lesson we will discuss how to create sprites and how to identify when we collide with a sprite.  We will write a basic program to demonstrate these topics today.  In the next lesson we will refine our understanding of sprites even more.
+In this lesson we are going to start by reviewing the important concepts from the last lesson.  Once we are done with our review we are going to take a break from game development to discuss an important topic that is necessary before we proceed with game development.  We will introduce a concept called Object Oriented Programming.  This is an advanced topic that we will only scratch the surface on.  
+Once we complete this lesson we will be ready to introduce Sprites. Sprites are 2D game objects that a user interacts with or that move independently on the screen.  In the next lesson we will discuss how to create sprites and how to identify when we collide with a sprite.  
 
 > 2.0 Review
 
-In the last lesson we discussed the following, lets review.  
+Let's review what we discussed in the last lesson.  
 
 + We discussed how we control the game clock to target a certain FPS.  How do we do that?
 + We discussed and implemented how we moved our stick man around the screen by only using keyboard controls.
 
 > 3.0 What is Object Oriented Programming?
 
-In order to discuss sprites, we need to understand a little about Object Oriented Programming.  Object-oriented Programming, or OOP for short, is a programming paradigm which provides a means of structuring programs so that properties and behaviors are bundled into individual objects.
-
-Put another way, object-oriented programming is a way to write code that models concrete, real-world things like cars as well as relations between things like companies and employees, students and teachers, etc. OOP models real-world entities as software objects, which have some data associated with them and can perform certain functions.
+Object Oriented Programming, or OOP, is a way to write code that models objects.  We use OOP to assign properties and functionality to these objects.
 
 > 3.1 Classes in Python
-
-Focusing first on the data, each thing or object is an instance of some class.
 
 The primitive data structures available in Python, like numbers, strings, and lists are designed to represent simple things like the cost of something, the name of a poem, and your favorite colors, respectively.
 
@@ -81,7 +80,7 @@ In the case of our Dog() class, each dog has a specific name and age, which is o
 
 Similarly, the self variable is also an instance of the class. Since instances of a class have varying values we could state Dog.name = name rather than self.name = name. But since not all dogs share the same name, we need to be able to assign different values to different instances. Hence the need for the special self variable, which will help to keep track of individual instances of each class.
 
-    NOTE: You will never have to call the __init__() method; it gets called automatically when you create a new ‘Dog’ instance.
+>> NOTE: You will never have to call the __init__() method; it gets called automatically when you create a new ‘Dog’ instance.
 
 > 3.4 Class Attributes
 
@@ -122,6 +121,7 @@ For example:
 >>> a == b
 False
 ```
+
 We started by defining a new Dog() class, then created two new dogs, each assigned to different objects. So, to create an instance of a class, you use the the class name, followed by parentheses. Then to demonstrate that each instance is actually different, we instantiated two more dogs, assigning each to a variable, then tested if those variables are equal.
 
 What do you think the type of a class instance is?
@@ -162,7 +162,8 @@ if philo.species == "mammal":
     print("{0} is a {1}!".format(philo.name, philo.species))
 
 ```
-    NOTE: Notice how we use dot notation to access attributes from each object.
+
+> NOTE: Notice how we use dot notation to access attributes from each object.
 
 What’s Going On?
 
@@ -205,8 +206,10 @@ print(mikey.speak("Gruff Gruff"))
 
 When you run this:
 
+```basic
 Mikey is 6 years old
 Mikey says Gruff Gruff
+```
 
 In the latter method, speak(), we are defining behavior. What other behaviors could you assign to a dog? Look back to the beginning paragraph to see some example behaviors for other objects.
 
@@ -228,6 +231,7 @@ False
 >>> my_email.is_sent
 True
 ```
+
 Here, we added a method to send an email, which updates the is_sent variable to True.
 
 > 3.8 Python Object Inheritance
@@ -235,7 +239,6 @@ Here, we added a method to send an email, which updates the is_sent variable to 
 Inheritance is the process by which one class takes on the attributes and methods of another. Newly formed classes are called child classes, and the classes that child classes are derived from are called parent classes.
 
 It’s important to note that child classes override or extend the functionality (e.g., attributes and behaviors) of parent classes. In other words, child classes inherit all of the parent’s attributes and behaviors but can also specify different behavior to follow. The most basic type of class is an object, which generally all other classes inherit as their parent.
-
 
 Dog Park Example
 
@@ -309,8 +312,10 @@ Read the comments aloud as you work through this program to help you understand 
 
 You should see:
 
+```
 Jim is 12 years old
 Jim runs slowly
+```
 
 We haven’t added any special attributes or methods to differentiate a RussellTerrier from a Bulldog, but since they’re now two different classes, we could for instance give them different class attributes defining their respective speeds.
 
@@ -380,7 +385,7 @@ print(isinstance(julie, jim))
 Output:
 
 ```python
-('Jim', 12) 
+('Jim', 12)
 Jim runs slowly
 True
 True
