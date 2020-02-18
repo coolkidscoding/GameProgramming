@@ -13,23 +13,23 @@
   + A red rectangle at 50,50 and width,height 10,10
   + A green circle at 200,200 with radius 30
   
-+ **Lesson 2:  TBD**
++ **Lesson 2:  Introduce Object Movemnet and Limits**
   
-+ **Lesson 3: TBD**
++ **Lesson 3: Fundamentals of Object Oriented Programming (Part 1)**
 
-+ **Lesson 4: TBD**
++ **Lesson 4: Fundamentals of Object Oriented Programming (Part 2)**
 
-+ **Lesson 5: TBD**
++ **Lesson 5: Sprites**
 
 + **Lesson 6: TBD**
 
 + **Lesson 7: TBD**
 
-+ **Lesson 8:  TBD**
++ **Lesson 8: TBD**
 
-+ **Lesson 9:  TBD**
++ **Lesson 9: TBD**
 
-+ **Lesson 10:  TBD**
++ **Lesson 10: TBD**
 
 + **Lesson 11: TBD**
   

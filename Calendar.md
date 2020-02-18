@@ -9,13 +9,13 @@
 + Class #2 (**Introduce Object Movement and Limits**)
   + 1/31/2020
   + Upper West Side
-+ Class #3 (**Fundamentals of Object Oriented Programming**)
++ Class #3 (**Fundamentals of Object Oriented Programming (Part 1)**)
   + 2/7/2020
   + Upper West Side
-+ Class #4 (**Sprites**)
++ Class #4 (**Fundamentals of Object Oriented Programming (Part 2)**)
   + 2/21/2020
   + Upper West Side
-+ Class #5 (**TBD**)
++ Class #5 (**Sprites**)
   + 2/28/2020
   + Upper West Side
 + Class #6 (**TBD**)
@@ -51,10 +51,10 @@
 + Class #3 (**Fundamentals of Object Oriented Programming**)
   + 2/9/2020
   + Upper East Side
-+ Class #4 (**Sprites**)
++ Class #4 (**Fundamentals of Object Oriented Programming (Part 2)**)
   + 2/23/2020
   + Upper East Side
-+ Class #5 (**TBD**)
++ Class #5 (**Sprites**)
   + 3/1/2020
   + Upper East Side
 + Class #6 (**TBD**)
