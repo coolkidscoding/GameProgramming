@@ -18,10 +18,10 @@
 + Class #5 (**Sprites**)
   + 2/28/2020
   + Upper West Side
-+ Class #6 (**TBD**)
++ Class #6 (**Mini Game (Part 1)**)
   + 3/6/2020
   + Upper West Side
-+ Class #7 (**TBD**)
++ Class #7 (**Mini Game (Part 2)**)
   + 3/27/2020
   + Upper West Side
 + Class #8 (**TBD**)
@@ -57,10 +57,10 @@
 + Class #5 (**Sprites**)
   + 3/1/2020
   + Upper East Side
-+ Class #6 (**TBD**)
++ Class #6 (**Mini Game (Part 1)**)
   + 3/8/2020
   + Upper East Side
-+ Class #7 (**TBD**)
++ Class #7 (**Mini Game (Part 2)**)
   + 3/29/2020
   + Upper East Side
 + Class #8 (**TBD**)
