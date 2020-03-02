@@ -15,16 +15,16 @@
 + Class #4 (**Fundamentals of Object Oriented Programming (Part 2)**)
   + 2/21/2020
   + Upper West Side
-+ Class #5 (**Sprites**)
++ Class #5 (**Fundamentals of Object Oriented Programming (Review)**)
   + 2/28/2020
   + Upper West Side
-+ Class #6 (**Mini Game (Part 1)**)
-  + 3/6/2020
++ Class #6 (**Sprites**)
+  + TBD
   + Upper West Side
-+ Class #7 (**Mini Game (Part 2)**)
-  + 3/27/2020
++ Class #7 (**Mini Game (Part 1)**)
+  + TBD
   + Upper West Side
-+ Class #8 (**TBD**)
++ Class #8 (**Mini Game (Part 1)**)
   + 4/3/2020
   + Upper West Side
 + Class #9 (**TBD**)
@@ -58,10 +58,10 @@
   + 3/1/2020
   + Upper East Side
 + Class #6 (**Mini Game (Part 1)**)
-  + 3/8/2020
+  + TBD
   + Upper East Side
 + Class #7 (**Mini Game (Part 2)**)
-  + 3/29/2020
+  + TBD
   + Upper East Side
 + Class #8 (**TBD**)
   + 4/5/2020
