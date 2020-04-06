@@ -22,12 +22,12 @@
   + 3/6/2020
   + Upper West Side
 + Class #7 (**Sprites**)
-  + TBD
-  + Upper West Side
-+ Class #8 (**Mini Game (Part 1)**)
-  + 4/3/2020
-  + Upper West Side
-+ Class #9 (**TBD**)
+  + 4/5/2020
+  + Remote Learning
++ Class #8 (**Sprites (Part 2)**)
+  + 4/10/2020
+  + Remote Learning
++ Class #9 (**Mini Game (Part 1)**)
   + 4/17/2020
   + Upper West Side
 + Class #10 (**TBD**)
@@ -36,7 +36,7 @@
 + Class #11 (**TBD**)
   + 5/1/2020
   + Upper West Side
-+ Class #12 (**Review/Final Exam**)
++ Class #12 (**TBD**)
   + 5/8/2020
   + Upper West Side
 
@@ -57,24 +57,24 @@
 + Class #5 (**Sprites**)
   + 3/1/2020
   + Upper East Side
-+ Class #6 (**Sprites**)
-  + TBD
-  + Upper East Side
-+ Class #7 (**Mini Game (Part 1)**)
-  + TBD
-  + Upper East Side
-+ Class #8 (**TBD**)
++ Class #6 (**Basics Review**)
   + 4/5/2020
+  + Remote Learning
++ Class #7 (**Sprites**)
+  + TBD
+  + Upper East Side
++ Class #8 (**Mini Game (Part 1)**)
+  + TBD
   + Upper East Side
 + Class #9 (**TBD**)
-  + 4/19/2020
+  + 4/5/2020
   + Upper East Side
 + Class #10 (**TBD**)
-  + 4/26/2020
+  + 4/19/2020
   + Upper East Side
 + Class #11 (**TBD**)
-  + 5/3/2020
+  + 4/26/2020
   + Upper East Side
-+ Class #12 (**Review/Final Exam**)
-  + 5/10/2020
++ Class #12 (**TBD**)
+  + 5/3/2020
   + Upper East Side
