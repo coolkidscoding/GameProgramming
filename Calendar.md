@@ -27,18 +27,18 @@
 + Class #8 (**Sprites (Part 2)**)
   + 4/10/2020
   + Remote Learning
-+ Class #9 (**Mini Game (Part 1)**)
++ Class #9 (**Lunar Lander**)
   + 4/17/2020
-  + Upper West Side
+  + Remote Learning
 + Class #10 (**TBD**)
   + 4/24/2020
-  + Upper West Side
+  + Remote Learning
 + Class #11 (**TBD**)
   + 5/1/2020
-  + Upper West Side
+  + Remote Learning
 + Class #12 (**TBD**)
   + 5/8/2020
-  + Upper West Side
+  + Remote Learning
 
 > **Class Code: GP2002**
 
@@ -48,33 +48,33 @@
 + Class #2 (**Introduce Object Movement and Limits**)
   + 2/2/2020
   + Upper East Side
-+ Class #3 (**Fundamentals of Object Oriented Programming**)
++ Class #3 (**Stickman**)
   + 2/9/2020
   + Upper East Side
-+ Class #4 (**Fundamentals of Object Oriented Programming (Part 2)**)
++ Class #4 (**Fundamentals of Object Oriented Programming**)
   + 2/23/2020
   + Upper East Side
-+ Class #5 (**Sprites**)
++ Class #5 (**Fundamentals of Object Oriented Programming (Part 2)**)
   + 3/1/2020
   + Upper East Side
 + Class #6 (**Basics Review**)
   + 4/5/2020
   + Remote Learning
 + Class #7 (**Sprites**)
-  + TBD
-  + Upper East Side
-+ Class #8 (**Mini Game (Part 1)**)
-  + TBD
-  + Upper East Side
-+ Class #9 (**TBD**)
-  + 4/5/2020
-  + Upper East Side
-+ Class #10 (**TBD**)
+  + 4/11/2020
+  + Remote Learning
++ Class #8 (**Sprites (Part 2)**)
   + 4/19/2020
-  + Upper East Side
+  + Remote Learning
++ Class #9 (**Lunar Lander**)
+  + TBD
+  + Remote Learning
++ Class #10 (**TBD**)
+  + TBD
+  + Remote Learning
 + Class #11 (**TBD**)
-  + 4/26/2020
-  + Upper East Side
+  + TBD
+  + Remote Learning
 + Class #12 (**TBD**)
-  + 5/3/2020
-  + Upper East Side
+  + TBD
+  + Remote Learning
