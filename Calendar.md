@@ -30,10 +30,10 @@
 + Class #9 (**Lunar Lander**)
   + 4/17/2020
   + Remote Learning
-+ Class #10 (**TBD**)
++ Class #10 (**Bullets**)
   + 4/24/2020
   + Remote Learning
-+ Class #11 (**TBD**)
++ Class #11 (**5/1/2020**)
   + 5/1/2020
   + Remote Learning
 + Class #12 (**TBD**)
@@ -69,7 +69,7 @@
 + Class #9 (**Lunar Lander**)
   + TBD
   + Remote Learning
-+ Class #10 (**TBD**)
++ Class #10 (**Bullets**)
   + TBD
   + Remote Learning
 + Class #11 (**TBD**)

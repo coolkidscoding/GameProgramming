@@ -113,7 +113,6 @@ def display_final():
 
 myThrottle = ThrottleClass((15, 500))
 
-
 # calcualte position, motion, acceleration, fuel
 def calculate_velocity():
     global thrust, fuel, velocity, delta_v, height, y_pos
