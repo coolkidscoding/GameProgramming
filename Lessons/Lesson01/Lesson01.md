@@ -1,10 +1,18 @@
-# <center>**[Cool Kids Coding School](https://www.coolkidscodingschool.com)**</center>
+<div>
+
+<p>
+<img align=left src="images/ckcslogo.png">
+</p>
+
 ---
-## Game Programming with Python<br> Lesson 01: Introduction to PyGame
 
-![alt text][logo]
+<p>
+<H1 align=left><a href="http://www.coolkidscodingschool.com">Cool Kids Coding School</a></H1>
+<H2 align=left>Course: <strong>Game Programming</strong></H1>
+<H3 align=left>Lesson 1: <strong>Introduction to PyGame</strong></H3>
+</p>
 
-[logo]: ./images/ckcslogo.png
+</div>
 
 ---
 

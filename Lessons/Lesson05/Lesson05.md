@@ -1,11 +1,21 @@
-# <center>**[Cool Kids Coding School](https://www.coolkidscodingschool.com)**</center>
----
-## Game Programming with Python<br> Lesson 05: Working with Sprites
+<div>
 
-![alt text][logo]
+<p>
+<img align=left src="images/ckcslogo.png">
+</p>
 
-[logo]: ./images/ckcslogo.png
 ---
+
+<p>
+<H1 align=left><a href="http://www.coolkidscodingschool.com">Cool Kids Coding School</a></H1>
+<H2 align=left>Course: <strong>Game Programming</strong></H1>
+<H3 align=left>Lesson 5: <strong>Working with Sprites</strong></H3>
+</p>
+
+</div>
+
+---
+
 
 > 1.0 Overview
 

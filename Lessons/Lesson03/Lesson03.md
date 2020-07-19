@@ -1,12 +1,18 @@
-# <center>**[Cool Kids Coding School](https://www.coolkidscodingschool.com)**</center>
+<div>
+
+<p>
+<img align=left src="images/ckcslogo.png">
+</p>
 
 ---
 
-## Game Programming with Python<br> Lesson 03: Fundamentals of Object Oriented Programming
+<p>
+<H1 align=left><a href="http://www.coolkidscodingschool.com">Cool Kids Coding School</a></H1>
+<H2 align=left>Course: <strong>Game Programming</strong></H1>
+<H3 align=left>Lesson 3: <strong>Fundamentals of Object Oriented Programming</strong></H3>
+</p>
 
-![alt text][logo]
-
-[logo]: ./images/ckcslogo.png
+</div>
 
 ---
 
